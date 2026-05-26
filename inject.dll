@@ -704,9 +704,9 @@ EFI_STATUS EFIAPI efi_main(EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE* SystemTable
     ReadStatusFromFile(ImageHandle, SystemTable, StatusText, 16);
 
     SystemTable->ConOut->SetCursorPosition(SystemTable->ConOut, 0, 0);
-    SystemTable->ConOut->OutputString(SystemTable->ConOut, (CHAR16*)L"==================================================\r\n");
+    SystemTable->ConOut->OutputString(SystemTable->ConOut, (CHAR16*)L"=====================================\r\n");
     SystemTable->ConOut->OutputString(SystemTable->ConOut, (CHAR16*)L"                test                 \r\n");
-    SystemTable->ConOut->OutputString(SystemTable->ConOut, (CHAR16*)L"====================================\r\n");
+    SystemTable->ConOut->OutputString(SystemTable->ConOut, (CHAR16*)L"=====================================\r\n");
     SystemTable->ConOut->OutputString(SystemTable->ConOut, (CHAR16*)L"\r\n");
     SystemTable->ConOut->OutputString(SystemTable->ConOut, (CHAR16*)L"\r\n");
     SystemTable->ConOut->OutputString(SystemTable->ConOut, (CHAR16*)L"\r\n");
