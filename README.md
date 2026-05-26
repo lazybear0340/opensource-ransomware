@@ -3,6 +3,9 @@
 
 p.s. for the efi headers go to [yoppeh’s efi headers repo](https://github.com/yoppeh/efi)
 
+License
+[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 Overview
 A two-component system: a Windows payload performing AES-256 file encryption with data exfiltration, and a UEFI pre-boot lock screen that replaces the Windows Boot Manager until a password is entered.
 
@@ -107,8 +110,5 @@ System Modifications
 Persistence: Two scheduled tasks (SystemUpdateTask on logon, MicrosoftWindowsUpdate daily at 09:00).
 
 Recovery prevention: Shadow copies deleted, WinRE disabled, Safe Mode registry corrupted, UAC disabled, Task Manager and Registry Editor blocked, Windows Defender terminated and disabled, Microsoft update domains blocked in hosts file.
-
-License
-[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 ⚠️ This software is provided for educational and research purposes only. Unauthorized deployment against systems without explicit permission is illegal. The authors assume no liability for misuse.
