@@ -111,4 +111,4 @@ Recovery prevention: Shadow copies deleted, WinRE disabled, Safe Mode registry c
 License
 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-This software is provided for educational and research purposes only. Unauthorized deployment against systems without explicit permission is illegal. The authors assume no liability for misuse.
+⚠️ This software is provided for educational and research purposes only. Unauthorized deployment against systems without explicit permission is illegal. The authors assume no liability for misuse.
