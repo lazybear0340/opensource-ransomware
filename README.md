@@ -6,13 +6,13 @@ p.s. for the efi headers go to [yoppeh’s efi headers repo](https://github.com/
 Overview
 A two-component system consisting of a Windows payload that performs AES-256 file encryption and deploys a UEFI pre-boot lock screen. The UEFI module replaces the Windows Boot Manager and requires password authentication before chain-loading the original boot manager.
 
-Project Structure
-text
+Project structure
 project/
 ├── main.cpp            # Windows encryption payload
 ├── efi.dll             # UEFI lock screen source
 ├── inject.dll          # Compiled UEFI module (renamed from efi.dll)
 └── README.md
+
 System Architecture
 text
 WINDOWS PAYLOAD (main.cpp)
